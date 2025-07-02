@@ -1,90 +1,93 @@
-# InfraGraph
+InfraGraph
+InfraGraph is a modern, interactive tool for designing cloud architecture diagrams. It is built using React Flow, Framer Motion, and Vite. The application enables users to visually design infrastructure components, modify their properties, estimate costs, and export the complete layout.
 
-**InfraGraph** is a modern, interactive cloud architecture diagramming tool built with React Flow, Framer Motion, and Vite. It allows you to visually design infrastructure components, edit properties, estimate costs, and export your entire layout.
+Live Demo: https://hitman298.github.io/InfraGraph
 
-Live Demo: [https://hitman298.github.io/InfraGraph](https://hitman298.github.io/InfraGraph)
+Usage Guide
+Drag components (e.g., Server, Database, Lambda) from the sidebar onto the canvas.
 
----
+Click a component to access and modify its properties in the right sidebar (e.g., instance type, region).
 
-## 🧪 Usage Guide
+Draw connections between components to define relationships.
 
-* 🟩 **Drag components** (Server, DB, Lambda, etc.) to the canvas from the sidebar
-* 🔧 **Click a component** to edit its properties in the right sidebar (e.g. instance type, region)
-* 🔗 **Draw connections** between components to represent relationships
-* 🗑️ **Delete nodes** using the `Delete` key on your keyboard
-* ➕ **Quick Add Button** appears below the canvas for fast component creation
-* 🎯 **Zoom to Fit** button centers your entire canvas automatically
-* 📥 **Import JSON** to load a saved infrastructure diagram
-* 📤 **Export JSON** to save your architecture layout
-* 🖼️ **Export PNG** to download a screenshot of your diagram
-* 💾 **Auto-Save**: your canvas is saved to Local Storage automatically
+Delete nodes by selecting a component and pressing the Delete key.
 
----
+A Quick Add Button is available below the canvas for rapid component creation.
 
-## ✨ Features
+The Zoom to Fit button automatically centers the entire canvas view.
 
-* 🔄 Drag-and-drop node creation
-* 🛠️ Dynamic Properties Panel with Tabs (Properties, Cost, AI)
-* 🤖 AI Insights for optimization suggestions
-* 🧠 Smart Suggestions panel for contextual tips
-* 📦 JSON import/export support
-* 📷 Image export with `dom-to-image-more`
-* 🗑️ Node deletion with keyboard
-* 💾 Local Storage persistence
-* 🔍 Zoom to Fit functionality
+Import JSON to load previously saved infrastructure diagrams.
 
----
+Export JSON to save your architecture layout.
 
-## 🧱 Built With
+Export PNG to download a screenshot of your diagram.
 
-* [React](https://react.dev/)
-* [React Flow](https://reactflow.dev/)
-* [Tailwind CSS](https://tailwindcss.com/)
-* [Framer Motion](https://www.framer.com/motion/)
-* [Lucide Icons](https://lucide.dev/)
-* [dom-to-image-more](https://www.npmjs.com/package/dom-to-image-more)
+Auto-Save: The canvas state is automatically saved to Local Storage.
 
----
+Features
+Drag-and-drop functionality for node creation.
 
-## 🚀 Getting Started
+Dynamic Properties Panel with categorized tabs (Properties, Cost, AI).
 
-```bash
-# Clone the repo
-https://github.com/hitman298/InfraGraph.git
+AI-driven insights for optimization suggestions.
+
+Smart Suggestions panel providing contextual tips.
+
+JSON import and export capabilities.
+
+Image export using dom-to-image-more.
+
+Node deletion via keyboard input.
+
+Automatic persistence of data to Local Storage.
+
+Zoom to Fit view functionality.
+
+Built With
+React
+
+React Flow
+
+Tailwind CSS
+
+Framer Motion
+
+Lucide Icons
+
+dom-to-image-more
+
+Getting Started
+To set up the project for local development:
+
+# Clone the repository
+git clone https://github.com/hitman298/InfraGraph.git
+
+# Navigate into the project directory
+cd InfraGraph
 
 # Install dependencies
 pnpm install
 
-# Start the dev server
+# Start the development server
 pnpm dev
-```
 
----
+Build & Deploy
+To build the application for production and deploy to GitHub Pages:
 
-## 📦 Build & Deploy
-
-```bash
-# Build the app
+# Build the application
 pnpm build
 
 # Deploy to GitHub Pages
 pnpm deploy
-```
 
-Make sure your `package.json` includes:
+Ensure your package.json includes the following homepage entry for GitHub Pages deployment:
 
-```json
 "homepage": "https://hitman298.github.io/InfraGraph"
-```
 
----
+Author
+Lohith Ratan — @hitman298
 
-## 👤 Author
+This project is a solo endeavor developed to expand knowledge in infrastructure design, React Flow, and public tool-building. Contributions and enhancements are welcome.
 
-* **Lohith Ratan** — [@hitman298](https://github.com/hitman298)
-
----
-
-## 📄 License
-
-MIT License. Feel free to fork and enhance this project!
+License
+MIT License.
