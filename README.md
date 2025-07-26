@@ -1,7 +1,7 @@
 InfraGraph
 InfraGraph is a modern, interactive cloud architecture diagramming tool built with React Flow, Framer Motion, and Vite. It allows visual design of infrastructure components, property modification, cost estimation, and complete layout export.
 
-Live Demo: https://hitman298.github.io/InfraGraph
+Live Demo: [https://hitman298.github.io/InfraGraph](https://infragraph.onrender.com)
 
 Features
 Visual Design: Drag-and-drop node creation, dynamic properties panel (Properties, Cost, AI tabs).
